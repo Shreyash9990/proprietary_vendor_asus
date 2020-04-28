@@ -61,6 +61,7 @@ android_app_import {
 android_app_import {
 	name: "AsusGallery",
 	owner: "asus",
+ 	overrides: ["GalleryGoPrebuilt", "Photos"],
 	apk: "proprietary/priv-app/AsusGallery/AsusGallery.apk",
 	certificate: "platform",
 	dex_preopt: {
