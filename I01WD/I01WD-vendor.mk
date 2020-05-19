@@ -138,6 +138,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/priv-app/AsusGallery/lib/arm/libtensorflow_inference.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libtensorflow_inference.so \
     vendor/asus/I01WD/proprietary/priv-app/AsusGallery/lib/arm/libtensorflowlite_jni.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGallery/lib/arm/libtensorflowlite_jni.so \
     vendor/asus/I01WD/proprietary/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so \
+    vendor/asus/I01WD/proprietary/priv-app/MobileManager/lib/arm64/libavast-utils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MobileManager/lib/arm64/libavast-utils.so \
+    vendor/asus/I01WD/proprietary/priv-app/MobileManager/lib/arm64/libavast-vps-interface.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MobileManager/lib/arm64/libavast-vps-interface.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libjni_laser.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libjni_laser.so \
@@ -232,12 +234,20 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
+    AsusBoost \
+    MobileManagerService \
     aptxals \
     aptxalsOverlay \
+    AsusCalculator \
     AsusCamera \
     AsusGallery \
     AsusGalleryBurst \
+    AsusSoundRecorder \
+    FileManager \
+    MobileManager \
     MotorService \
+    PowerSaving2 \
+    WeatherTime \
     WfdService \
     com.qualcomm.location \
     QtiTelephonyService \

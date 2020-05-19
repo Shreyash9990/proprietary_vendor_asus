@@ -38,6 +38,26 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "AsusBoost",
+	owner: "asus",
+	apk: "proprietary/app/AsusBoost/AsusBoost.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "MobileManagerService",
+	owner: "asus",
+	apk: "proprietary/app/MobileManagerService/MobileManagerService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "aptxals",
 	owner: "asus",
 	apk: "proprietary/app/aptxals/aptxals.apk",
@@ -55,6 +75,17 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
+}
+
+android_app_import {
+	name: "AsusCalculator",
+	owner: "asus",
+	apk: "proprietary/priv-app/AsusCalculator/AsusCalculator.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
 }
 
 android_app_import {
@@ -91,9 +122,64 @@ android_app_import {
 }
 
 android_app_import {
+	name: "AsusSoundRecorder",
+	owner: "asus",
+	apk: "proprietary/priv-app/AsusSoundRecorder/AsusSoundRecorder.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "FileManager",
+	owner: "asus",
+	apk: "proprietary/priv-app/FileManager/FileManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "MobileManager",
+	owner: "asus",
+	apk: "proprietary/priv-app/MobileManager/MobileManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "MotorService",
 	owner: "asus",
 	apk: "proprietary/priv-app/MotorService/MotorService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "PowerSaving2",
+	owner: "asus",
+	apk: "proprietary/priv-app/PowerSaving2/PowerSaving2.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "WeatherTime",
+	owner: "asus",
+	apk: "proprietary/priv-app/WeatherTime/WeatherTime.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
