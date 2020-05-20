@@ -80,6 +80,7 @@ android_app_import {
 android_app_import {
 	name: "AsusCalculator",
 	owner: "asus",
+ 	overrides: ["CalculatorGooglePrebuilt"],
 	apk: "proprietary/priv-app/AsusCalculator/AsusCalculator.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -102,6 +103,7 @@ android_app_import {
 android_app_import {
 	name: "AsusGallery",
 	owner: "asus",
+ 	overrides: ["GalleryGoPrebuilt", "Photos"],
 	apk: "proprietary/priv-app/AsusGallery/AsusGallery.apk",
 	certificate: "platform",
 	dex_preopt: {
