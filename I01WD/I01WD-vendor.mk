@@ -142,11 +142,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/AsusGalleryBurst/lib/arm/libgifencoder.so \
     vendor/asus/I01WD/proprietary/priv-app/MobileManager/lib/arm64/libavast-utils.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MobileManager/lib/arm64/libavast-utils.so \
     vendor/asus/I01WD/proprietary/priv-app/MobileManager/lib/arm64/libavast-vps-interface.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MobileManager/lib/arm64/libavast-vps-interface.so \
-    vendor/asus/I01WD/proprietary/priv-app/PowerSaving2/lib/arm64/libJniModule.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/PowerSaving2/lib/arm64/libJniModule.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libAsusLaserSensorHAL.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libAsusMotorDriverHAL.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libjni_laser.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libjni_laser.so \
     vendor/asus/I01WD/proprietary/priv-app/MotorService/lib/arm64/libjni_motor.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/MotorService/lib/arm64/libjni_motor.so \
+    vendor/asus/I01WD/proprietary/priv-app/PowerSaving2/lib/arm64/libJniModule.so:$(TARGET_COPY_OUT_SYSTEM)/priv-app/PowerSaving2/lib/arm64/libJniModule.so \
     vendor/asus/I01WD/proprietary/product/bin/dpmd:$(TARGET_COPY_OUT_PRODUCT)/bin/dpmd \
     vendor/asus/I01WD/proprietary/product/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/dpm/dpm.conf \
     vendor/asus/I01WD/proprietary/product/etc/init/dpmd.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/dpmd.rc \
