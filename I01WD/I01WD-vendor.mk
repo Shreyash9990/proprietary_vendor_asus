@@ -239,22 +239,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libantradio \
-    AsusBoost \
-    MobileManagerService \
     aptxals \
     aptxalsOverlay \
-    AsusCalculator \
-    AsusCamera \
-    AsusGallery \
-    AsusGalleryBurst \
-    AsusSoundRecorder \
-    FileManager \
-    MobileManager \
     MotorService \
-    PowerSaving2 \
-    WeatherTime \
     WfdService \
-    com.qualcomm.location \
     QtiTelephonyService \
     embms \
     HotwordEnrollmentOKGoogleWCD9340 \
