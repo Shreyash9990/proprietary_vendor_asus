@@ -39,6 +39,28 @@ cc_prebuilt_library_shared {
 }
 
 android_app_import {
+	name: "AsusCamera",
+	owner: "asus",
+	apk: "proprietary/priv-app/AsusCamera/AsusCamera.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "AsusGallery",
+	owner: "asus",
+	apk: "proprietary/priv-app/AsusGallery/AsusGallery.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "aptxals",
 	owner: "asus",
 	apk: "proprietary/app/aptxals/aptxals.apk",

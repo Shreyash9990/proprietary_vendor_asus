@@ -242,6 +242,8 @@ PRODUCT_PACKAGES += \
     aptxals \
     aptxalsOverlay \
     MotorService \
+    AsusCamera \
+    AsusGallery \
     WfdService \
     QtiTelephonyService \
     embms \
