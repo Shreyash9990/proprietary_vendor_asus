@@ -244,6 +244,8 @@ PRODUCT_PACKAGES += \
     MotorService \
     AsusCamera \
     AsusGallery \
+    FileManager \
+    AsusCalculator \
     WfdService \
     QtiTelephonyService \
     embms \

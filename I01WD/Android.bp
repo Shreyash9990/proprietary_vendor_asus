@@ -61,6 +61,28 @@ android_app_import {
 }
 
 android_app_import {
+	name: "AsusCalculator",
+	owner: "asus",
+	apk: "proprietary/priv-app/AsusCalculator/AsusCalculator.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "FileManager",
+	owner: "asus",
+	apk: "proprietary/priv-app/FileManager/FileManager.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
 	name: "aptxals",
 	owner: "asus",
 	apk: "proprietary/app/aptxals/aptxals.apk",
