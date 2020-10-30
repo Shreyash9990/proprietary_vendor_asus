@@ -224,3 +224,14 @@ dex_import {
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
 
+android_app_import {
+	name: "CarrierSettings",
+	owner: "asus",
+	apk: "proprietary/product/priv-app/CarrierSettings/CarrierSettings.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	product_specific: true,
+}
