@@ -170,7 +170,6 @@ PRODUCT_PACKAGES += \
     libantradio \
     aptxals \
     WfdService \
-    com.qualcomm.location \
     QtiTelephonyService \
     embms \
     HotwordEnrollmentOKGoogleWCD9340 \
