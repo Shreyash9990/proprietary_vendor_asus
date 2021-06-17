@@ -315,7 +315,6 @@ PRODUCT_PACKAGES += \
     aptxals \
     aptxalsOverlay \
     MotorService \
-    CarrierSettings \
     AsusCamera \
     AsusGallery \
     AsusGalleryBurst \
