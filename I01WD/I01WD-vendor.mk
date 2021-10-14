@@ -327,7 +327,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     uimgbaservice \
     WfdService \
-    com.qualcomm.location \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
