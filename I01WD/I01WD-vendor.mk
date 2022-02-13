@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/system_ext/lib64/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.qti.hardware.fm@1.0.so \
     vendor/asus/I01WD/proprietary/system_ext/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/fm_helium.so \
     vendor/asus/I01WD/proprietary/system_ext/lib/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libfm-hci.so \
+    vendor/asus/I01WD/proprietary/system/lib/libyuv.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libyuv.so \
     vendor/asus/I01WD/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/asus/I01WD/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/asus/I01WD/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
@@ -55,6 +56,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/msmnile_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_0.json \
@@ -187,9 +189,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/asus/I01WD/proprietary/vendor/firmware/stereo.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/stereo.cnt \
     vendor/asus/I01WD/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
-    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/arch/DIT_List.cfg \
-    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ispDB/ParameterDB.db \
+    vendor/asus/I01WD/proprietary/vendor/lib/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/AsusUndistort.so \
     vendor/asus/I01WD/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I01WD/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
@@ -200,6 +200,41 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-external-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.5-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.6-external-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx318.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx334.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx362.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx376.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx386.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx476.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx519.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx576.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx577.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.imx586.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_6dof.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_eyetrack.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov6211.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov6211_sheldon.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov6211_sheldon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov9282.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.max7366_ov9282_sheldon.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.max7366_ov9282_sheldon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov12a10_front.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13855.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov13855_front_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13855_front_aux.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov13855_rear_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13855_rear_aux.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov13880.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov7251.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov8856_left.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856_left.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.ov8856_right.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.ov8856_right.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2l7.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k2x5sp.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensor.s5k5e9yu05.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensormodule.imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.imx586.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensormodule.imx586_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.imx586_front.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensormodule.ov13855_front_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ov13855_front_aux.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.sensormodule.ov13855_rear_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.sensormodule.ov13855_rear_aux.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.qti.tuned.default.bin \
     vendor/asus/I01WD/proprietary/vendor/lib/camera/components/com.arcsoft.node.hdrplusraw.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.arcsoft.node.hdrplusraw.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera/components/com.arcsoft.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.arcsoft.node.realtimebokeh.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera/components/com.arcsoft.node.supernightraw.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/components/com.arcsoft.node.supernightraw.so \
@@ -258,6 +293,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libAsusLaserSensorHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAsusLaserSensorHAL.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libAsusMotor_hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAsusMotor_hidl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libAsusRGBSensorHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAsusRGBSensorHAL.so \
     vendor/asus/I01WD/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
@@ -284,17 +322,16 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_device_mode_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
@@ -303,9 +340,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswregistrationalgo.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
-    vendor/asus/I01WD/proprietary/vendor/lib/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvl53l1_daemon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvidhance.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_DIT_MSMv1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_DIT_MSMv1.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_DIT_Manager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_DIT_Manager.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ISP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ISP.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_arch.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditArchLIB.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditBSP.so \
     vendor/asus/I01WD/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
     vendor/asus/I01WD/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/asus/I01WD/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
@@ -313,12 +354,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/asus/I01WD/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
     vendor/asus/I01WD/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/vendor.asus.motor@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.asus.motor@1.0-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/vendor.asus.motor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.asus.motor@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib/vendor.qti.hardware.audiohalext@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.audiohalext@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/arch/DIT_List.cfg \
-    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ditSCidGen/msgchk.db \
-    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ispDB/ParameterDB.db \
+    vendor/asus/I01WD/proprietary/vendor/lib64/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AsusUndistort.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
@@ -329,6 +370,45 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera.device@3.5-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-external-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera.device@3.5-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.5-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera.device@3.6-external-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.6-external-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.eeprom.truly_cmb433.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.eeprom.truly_cmb433.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx318.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx334.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx334.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx362.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx376.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx386.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx386.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx476.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx476.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx519.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx576.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx577.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx577.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.imx586.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.imx586.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_6dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_6dof.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_eyetrack.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_eyetrack.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov6211.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov6211.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov6211_sheldon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov6211_sheldon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov9282.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov9282.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.max7366_ov9282_sheldon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.max7366_ov9282_sheldon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov12a10_front.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov12a10_front.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13855.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov13855_front_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13855_front_aux.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov13855_rear_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13855_rear_aux.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov13880.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov7251.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov7251.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856_left.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856_left.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.ov8856_right.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.ov8856_right.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2l7.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.s5k2x5sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k2x5sp.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensor.s5k5e9yu05.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensor.s5k5e9yu05.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensormodule.imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.imx586.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensormodule.imx586_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.imx586_front.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensormodule.ov13855_front_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ov13855_front_aux.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.sensormodule.ov13855_rear_aux.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ov13855_rear_aux.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.tuned.imx586_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.imx586_front.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.tuned.imx586_rear.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.imx586_rear.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.tuned.ov13855_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ov13855_front.bin \
+    vendor/asus/I01WD/proprietary/vendor/lib64/camera/com.qti.tuned.ov13855_rear.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ov13855_rear.bin \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera/components/com.arcsoft.node.hdrplusraw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.hdrplusraw.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.realtimebokeh.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera/components/com.arcsoft.node.supernightraw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/components/com.arcsoft.node.supernightraw.so \
@@ -387,6 +467,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/hw/fingerprint.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.default.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libAsusLaserSensorHAL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAsusLaserSensorHAL.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libAsusMotor_hidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libAsusMotor_hidl.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_beautyshot.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libarcsoft_bokehplus_image.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_bokehplus_image.so \
@@ -404,19 +486,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libgoodixhwfingerprint.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
@@ -424,11 +505,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsnsdiaglog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnsdiaglog.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libswregistrationalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libswregistrationalgo.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
-    vendor/asus/I01WD/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libvidhance.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvidhance.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_DIT_MSMv1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_DIT_MSMv1.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_DIT_Manager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_DIT_Manager.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ISP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ISP.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_arch.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditArchLIB.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.hal.tof.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/vendor.asus.motor@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.asus.motor@1.0-impl.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/vendor.asus.motor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.asus.motor@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
 
