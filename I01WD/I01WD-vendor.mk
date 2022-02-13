@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
     vendor/asus/I01WD/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/asus/I01WD/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
+    vendor/asus/I01WD/proprietary/vendor/bin/gf_ver.sh:$(TARGET_COPY_OUT_VENDOR)/bin/gf_ver.sh \
     vendor/asus/I01WD/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/asus/I01WD/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/I01WD/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
@@ -57,9 +58,19 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/asus/I01WD/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/asus/I01WD/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
-    vendor/asus/I01WD/proprietary/vendor/etc/charger_fw_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fw_fstab.qti \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b00 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b01 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b02 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b03 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b04:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b04 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b05:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b05 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b06:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b06 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.b07:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.b07 \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.mbn:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mbn \
+    vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/init.goodixfp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.goodixfp.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
@@ -191,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/sensors_list.txt:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensors_list.txt \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensors_settings \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
+    vendor/asus/I01WD/proprietary/vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml \
     vendor/asus/I01WD/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/asus/I01WD/proprietary/vendor/firmware/stereo.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/stereo.cnt \
     vendor/asus/I01WD/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
