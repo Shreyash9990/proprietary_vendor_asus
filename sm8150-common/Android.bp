@@ -186,41 +186,6 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleWCD9340",
-	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "HotwordEnrollmentXGoogleWCD9340",
-	owner: "asus",
-	apk: "proprietary/product/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-}
-
-android_app_import {
-	name: "DeviceInfo",
-	owner: "asus",
-	apk: "proprietary/system_ext/app/DeviceInfo/DeviceInfo.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
 	name: "QtiTelephonyService",
 	owner: "asus",
 	apk: "proprietary/system_ext/app/QtiTelephonyService/QtiTelephonyService.apk",
@@ -228,29 +193,6 @@ android_app_import {
 	dex_preopt: {
 		enabled: false,
 	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "datastatusnotification",
-	owner: "asus",
-	apk: "proprietary/system_ext/app/datastatusnotification/datastatusnotification.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	system_ext_specific: true,
-}
-
-android_app_import {
-	name: "WfdService",
-	owner: "asus",
-	apk: "proprietary/system_ext/priv-app/WfdService/WfdService.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
 	system_ext_specific: true,
 }
 
@@ -278,10 +220,13 @@ android_app_import {
 	system_ext_specific: true,
 }
 
-dex_import {
-	name: "WfdCommon",
+prebuilt_etc_xml {
+	name: "android.hardware.cas@1.2-service",
 	owner: "asus",
-	jars: ["proprietary/system/framework/WfdCommon.jar"],
+	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
 }
 
 prebuilt_etc_xml {
@@ -324,6 +269,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
 	owner: "asus",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.vibrator.service",
+	owner: "asus",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.vibrator.service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
