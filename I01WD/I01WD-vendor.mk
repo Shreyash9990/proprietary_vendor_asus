@@ -22,6 +22,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/asus/I01WD/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/I01WD/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
+    vendor/asus/I01WD/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal \
     vendor/asus/I01WD/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/asus/I01WD/proprietary/vendor/bin/init.qti.chg_policy.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.chg_policy.sh \
     vendor/asus/I01WD/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
@@ -70,9 +71,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/etc/firmware/goodixfp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/goodixfp.mdt \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/init.goodixfp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.goodixfp.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
+    vendor/asus/I01WD/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/config/msmnile_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_0.json \
@@ -203,6 +208,30 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensors_settings \
     vendor/asus/I01WD/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/asus/I01WD/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b03 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b04 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b05 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b06 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b07 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b08 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b09 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b10 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b11 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b12 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b13 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b14 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b15 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b16 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b17 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b18 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b19 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b20 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b21 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b22 \
+    vendor/asus/I01WD/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
     vendor/asus/I01WD/proprietary/vendor/firmware/stereo.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/stereo.cnt \
     vendor/asus/I01WD/proprietary/vendor/firmware/tfa98xx.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/tfa98xx.cnt \
     vendor/asus/I01WD/proprietary/vendor/lib/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/AsusUndistort.so \
@@ -514,6 +543,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_registry_skel.so \
@@ -529,6 +559,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_arch.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditArchLIB.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.hal.tof.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/vendor.asus.motor@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.asus.motor@1.0-impl.so \
