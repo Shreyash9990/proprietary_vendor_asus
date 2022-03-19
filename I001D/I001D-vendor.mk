@@ -274,6 +274,76 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/etc/sensors/sensors_settings:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensors_settings \
     vendor/asus/I001D/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/asus/I001D/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
+    vendor/asus/I001D/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
+    vendor/asus/I001D/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
+    vendor/asus/I001D/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
+    vendor/asus/I001D/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_gmu.bin \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.elf \
+    vendor/asus/I001D/proprietary/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b08 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b09 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b10 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b11 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b12 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b13 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.b14 \
+    vendor/asus/I001D/proprietary/vendor/firmware/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/adsp.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b08 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b09 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b10 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b11 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cdsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b09 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b11 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b13 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b15 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b16 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b18 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.b20 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cpe_9340.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_9340.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.mdt \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_9896_config_station.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_9896_config_station.cfg \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_9896_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_9896_firmware.bin \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_cfg_group.bin \
@@ -302,6 +372,23 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_green.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_green.b06 \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_green.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_green.b07 \
     vendor/asus/I001D/proprietary/vendor/firmware/goodix_green.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_green.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/hdcpsrm.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/mcu_cali:$(TARGET_COPY_OUT_VENDOR)/firmware/mcu_cali \
+    vendor/asus/I001D/proprietary/vendor/firmware/mcu_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcu_firmware.txt \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/npu.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.mdt \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b00 \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b01 \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b02 \
@@ -325,7 +412,46 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b20 \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b21:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b21 \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.b22:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.b22 \
+    vendor/asus/I001D/proprietary/vendor/firmware/slpi.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mbn \
     vendor/asus/I001D/proprietary/vendor/firmware/slpi.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/slpi.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/soter64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/soter64.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss1p.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss1p.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss1p.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss1p.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss2p.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss2p.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss2p.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/spss2p.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
+    vendor/asus/I001D/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210.brd:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210.brd \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210.fw \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210_CA.brd:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_CA.brd \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210_CN.brd:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_CN.brd \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210_FCC.brd:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_FCC.brd \
+    vendor/asus/I001D/proprietary/vendor/firmware/wil6210_ftm.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_ftm.fw \
     vendor/asus/I001D/proprietary/vendor/lib/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/AsusUndistort.so \
     vendor/asus/I001D/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I001D/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
