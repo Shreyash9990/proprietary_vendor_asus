@@ -80,6 +80,70 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm1.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm10.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm11.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm12.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm13.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm14.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm15.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm16.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm17.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm18.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm19.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm2.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm20.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm21.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm3.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm4.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm5.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm6.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm7.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm8.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr1/inParm9.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm1.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm10.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm11.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm12.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm13.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm14.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm15.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm16.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm17.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm18.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm19.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm2.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm20.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm21.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm3.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm4.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm5.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm6.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm7.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm8.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_1/inParm9.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm1.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm10.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm11.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm12.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm13.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm14.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm15.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm16.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm17.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm18.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm19.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm2.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm20.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm21.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm3.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm4.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm5.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm6.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm7.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm8.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/inparm_pr2_2/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm_pr2_2/inParm9.txt \
+    vendor/asus/I001D/proprietary/vendor/etc/irissoft.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft.fw \
     vendor/asus/I001D/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/asus/I001D/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
     vendor/asus/I001D/proprietary/vendor/etc/sensors/config/msmnile_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/msmnile_ak991x_0.json \
@@ -399,6 +463,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
     vendor/asus/I001D/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
     vendor/asus/I001D/proprietary/vendor/lib/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirisPCS.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libpwiriscalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwiriscalibrate.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirispq.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libpwirissoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirissoft.so \
     vendor/asus/I001D/proprietary/vendor/lib/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqdMetaData.so \
     vendor/asus/I001D/proprietary/vendor/lib/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_cci.so \
     vendor/asus/I001D/proprietary/vendor/lib/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqmi_common_so.so \
@@ -406,6 +474,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/asus/I001D/proprietary/vendor/lib/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorcal.so \
     vendor/asus/I001D/proprietary/vendor/lib/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorslog.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libsnapdragoncolor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsnapdragoncolor.so \
     vendor/asus/I001D/proprietary/vendor/lib/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_fastRPC_util.so \
     vendor/asus/I001D/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
     vendor/asus/I001D/proprietary/vendor/lib/libsns_registry_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_registry_skel.so \
@@ -563,12 +632,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmpbase.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libprotobuf-cpp-lite-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-lite-3.9.1.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libpwirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirisPCS.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libpwiriscalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwiriscalibrate.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libpwirissoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirissoft.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libqdMetaData.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqdMetaData.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libqmi_cci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_cci.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libqmi_common_so.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_common_so.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libqmi_encdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqmi_encdec.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libsensorcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorcal.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libsensorslog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorslog.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libsnapdragoncolor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnapdragoncolor.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libsns_device_mode_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_device_mode_stub.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libsns_fastRPC_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_fastRPC_util.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsns_low_lat_stream_stub.so \
