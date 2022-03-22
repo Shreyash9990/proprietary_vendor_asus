@@ -1,3 +1,0 @@
-result=`cat /sys/class/ec_hid/dongle/device/battery_cur`
-
-echo $result

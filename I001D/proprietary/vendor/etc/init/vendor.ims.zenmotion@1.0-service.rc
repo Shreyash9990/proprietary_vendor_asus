@@ -1,4 +1,0 @@
-service zenmotion-hal-1-0 /vendor/bin/hw/vendor.ims.zenmotion@1.0-service
-    class hal
-    user system
-    group system
