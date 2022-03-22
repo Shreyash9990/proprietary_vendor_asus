@@ -264,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml \
-    vendor/asus/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_BOE_2K_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_BOE_2K_video_mode_dsi_panel.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml \
@@ -308,71 +307,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/etc/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     vendor/asus/sm8150-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/asus/sm8150-common/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a612_rgmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a612_rgmu.bin \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a618_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a618_gmu.bin \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a630_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_gmu.bin \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a630_sqe.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a630_sqe.fw \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_gmu.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_gmu.bin \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.elf \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/a640_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a640_zap.mdt \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/bdwlan.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan.bin \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/bdwlan_TWAS.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/bdwlan_TWAS.bin \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b08 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b09 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b10 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.b11 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cdsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cdsp.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b09 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b11 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b13 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b15 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b16 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b18 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.b20 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cpe_sm8150_image/cpe_9340.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cpe_sm8150_image/cpe_9340.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/dxhdcp2.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/dxhdcp2.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/hdcpsrm.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/hdcpsrm.mdt \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -385,54 +321,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_uc.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.b02 \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_uc.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.elf \
     vendor/asus/sm8150-common/proprietary/vendor/firmware/ipa_uc.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_uc.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/mcu_cali:$(TARGET_COPY_OUT_VENDOR)/firmware/mcu_cali \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/mcu_firmware.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/mcu_firmware.txt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/npu.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/npu.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b08 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b09 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b10 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b11 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b12 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b13 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.b14 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/q6_sm8150_image/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_sm8150_image/adsp.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss1p.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss1p.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss1p.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss1p.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/spss1p.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss2p.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss2p.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss2p.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/spss2p.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/spss2p.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/venus.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/venus.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
-    vendor/asus/sm8150-common/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/asus/sm8150-common/proprietary/vendor/lib/android.hardware.light-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.light-V1-ndk_platform.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/android.hardware.power-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.power-V1-ndk_platform.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
@@ -567,7 +455,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libsysmon_cdsp_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysmon_cdsp_skel.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvl53l1_daemon.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvppclient.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphcp.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpphvx.so \
@@ -923,7 +810,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libtrustedapploader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtrustedapploader.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/libvl53l1_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvl53l1_daemon.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libvppclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvppclient.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libvpphcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphcp.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libvpphvx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpphvx.so \
@@ -935,7 +821,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/nfc_nci.nqx.default.hw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.nqx.default.hw.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
