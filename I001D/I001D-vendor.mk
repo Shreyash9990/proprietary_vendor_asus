@@ -85,6 +85,153 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/asus/I001D/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/asus/I001D/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/1.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/100.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/100.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/101.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/101.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10100.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10100.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10101.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10101.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10102.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10102.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10103.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10103.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10104.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10104.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10105.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10105.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10106.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10106.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10107.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10107.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10108.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10108.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10109.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10109.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10110.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10110.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10111.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10111.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10112.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10112.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10113.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10113.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10114.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10114.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10115.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10115.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10116.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10116.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10117.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10117.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10118.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10118.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10119.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10119.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10120.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10120.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10121.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10121.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10122.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10122.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10123.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10123.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10124.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10124.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10125.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10125.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10126.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10126.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10127.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10127.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10128.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10129.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10129.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10130.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10130.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10131.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10131.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10132.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10132.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10133.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10133.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10134.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10134.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10135.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10135.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10136.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10136.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10137.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10137.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10138.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10138.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10139.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10139.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10140.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10141.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10141.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10142.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10142.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10143.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10143.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10144.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10144.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10145.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10145.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10146.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10146.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10147.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10147.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10148.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10148.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10149.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10149.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10150.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10150.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10151.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10151.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10152.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10152.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10153.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10153.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10154.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10154.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10155.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10155.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10156.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10156.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10157.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10157.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10158.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10158.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10159.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10159.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10160.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10160.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10161.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10161.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10162.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10162.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10163.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10163.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10164.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10164.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/10165.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/10165.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/102.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/102.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/103.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/103.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/104.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/104.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/105.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/105.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/106.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/106.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/107.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/107.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/108.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/108.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/109.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/109.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/11.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/11.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/110.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/110.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/111.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/111.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/112.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/112.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/113.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/113.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/114.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/114.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/115.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/115.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/116.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/116.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/117.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/117.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/118.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/118.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/119.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/119.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/12.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/12.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/120.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/120.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/121.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/121.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/122.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/122.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/123.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/123.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/124.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/124.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/125.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/125.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/126.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/126.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/127.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/127.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/128.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/128.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/129.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/129.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/13.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/130.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/130.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/131.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/131.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/132.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/132.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/133.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/133.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/134.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/134.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/135.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/135.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/136.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/136.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/137.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/137.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/138.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/138.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/139.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/139.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/14.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/140.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/141.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/141.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/143.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/143.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/144.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/144.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/145.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/145.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/146.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/146.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/147.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/147.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/148.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/148.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/149.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/149.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/14_0832.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/14_0832.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/15.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/15.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/150.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/150.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/151.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/151.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/152.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/152.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/153.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/153.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/154.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/154.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/156.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/156.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/157.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/157.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/158.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/158.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/159.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/159.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/16.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/16.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/160.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/160.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/161.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/161.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/162.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/162.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/163.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/163.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/164.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/164.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/165.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/165.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/2.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/3.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/4.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/4.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/5.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/5.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/6.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/6.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/7.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/7.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/8.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/8.bin \
+    vendor/asus/I001D/proprietary/vendor/etc/firmware/9.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/9.bin \
     vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
@@ -477,6 +624,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/firmware/wil6210_FCC.brd:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_FCC.brd \
     vendor/asus/I001D/proprietary/vendor/firmware/wil6210_ftm.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/wil6210_ftm.fw \
     vendor/asus/I001D/proprietary/vendor/lib/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/AsusUndistort.so \
+    vendor/asus/I001D/proprietary/vendor/lib/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/arch/DIT_List.cfg \
+    vendor/asus/I001D/proprietary/vendor/lib/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/I001D/proprietary/vendor/lib/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/I001D/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I001D/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I001D/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
@@ -607,8 +757,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/asus/I001D/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/asus/I001D/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
     vendor/asus/I001D/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/asus/I001D/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/asus/I001D/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/asus/I001D/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
     vendor/asus/I001D/proprietary/vendor/lib/libmpbase.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmpbase.so \
@@ -640,6 +793,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_arch.so \
     vendor/asus/I001D/proprietary/vendor/lib/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditArchLIB.so \
     vendor/asus/I001D/proprietary/vendor/lib/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditBSP.so \
+    vendor/asus/I001D/proprietary/vendor/lib/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditBSP_JNI.so \
     vendor/asus/I001D/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/asus/I001D/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
     vendor/asus/I001D/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
@@ -654,6 +808,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.1.so \
     vendor/asus/I001D/proprietary/vendor/lib/vendor.qti.hardware.vpp@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.vpp@1.2.so \
     vendor/asus/I001D/proprietary/vendor/lib64/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AsusUndistort.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/arch/DIT_List.cfg \
+    vendor/asus/I001D/proprietary/vendor/lib64/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/I001D/proprietary/vendor/lib64/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ispDB/ParameterDB.db \
     vendor/asus/I001D/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I001D/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I001D/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
@@ -775,8 +932,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgralloc.qti.so \
@@ -809,6 +969,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/lib64/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_arch.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditArchLIB.so \
     vendor/asus/I001D/proprietary/vendor/lib64/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP.so \
+    vendor/asus/I001D/proprietary/vendor/lib64/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP_JNI.so \
     vendor/asus/I001D/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/asus/I001D/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/asus/I001D/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
