@@ -479,10 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libsns_low_lat_stream_skel.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdtsaudio.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdynproc.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcompostprocbundle.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvisualizer.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcomvoiceprocessing.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libvolumelistener.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.0.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.1.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.2.so \
@@ -809,13 +805,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libdtsaudio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdtsaudio.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libdynproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libdynproc.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcbassboost.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcompostprocbundle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcompostprocbundle.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcomvisualizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvisualizer.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcomvoiceprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcomvoiceprocessing.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
-    vendor/asus/sm8150-common/proprietary/vendor/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libvolumelistener.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/unnhal-acc-adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-adreno.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/unnhal-acc-common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-common.so \
     vendor/asus/sm8150-common/proprietary/vendor/lib64/unnhal-acc-hta.so:$(TARGET_COPY_OUT_VENDOR)/lib64/unnhal-acc-hta.so \
