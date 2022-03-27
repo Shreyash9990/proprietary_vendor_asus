@@ -15,7 +15,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/system_ext/lib64/libfm-hci.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libfm-hci.so \
     vendor/asus/I001D/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/asus/I001D/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/asus/I001D/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/asus/I001D/proprietary/vendor/bin/hw/android.hardware.camera.provider@2.4-service_64:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.camera.provider@2.4-service_64 \
     vendor/asus/I001D/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal \
     vendor/asus/I001D/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
@@ -234,7 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I001D/proprietary/vendor/etc/firmware/7.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/7.bin \
     vendor/asus/I001D/proprietary/vendor/etc/firmware/8.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/8.bin \
     vendor/asus/I001D/proprietary/vendor/etc/firmware/9.bin:$(TARGET_COPY_OUT_VENDOR)/etc/firmware/9.bin \
-    vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
     vendor/asus/I001D/proprietary/vendor/etc/init/init.goodixfp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.goodixfp.rc \
