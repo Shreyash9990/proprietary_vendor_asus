@@ -357,6 +357,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/asus/I01WD/proprietary/vendor/firmware/wigig/wigig.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wigig/wigig.ini \
     vendor/asus/I01WD/proprietary/vendor/lib/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib/AsusUndistort.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/arch/DIT_List.cfg \
+    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/I01WD/proprietary/vendor/lib/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib/DataSet/ispDB/ParameterDB.db \
     vendor/asus/I01WD/proprietary/vendor/lib/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I01WD/proprietary/vendor/lib/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I01WD/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
@@ -489,8 +492,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/libaudioconfigstore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioconfigstore.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamera_nn_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov7.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdalgov8.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxfdengine.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxstatscore.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxswprocessalgo.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcamxtintlessalgo.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcom.qti.chinodeutils.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdts-eagle-shared.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libgralloc.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc.qti.so \
@@ -516,6 +522,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_arch.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditArchLIB.so \
     vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditBSP.so \
+    vendor/asus/I01WD/proprietary/vendor/lib/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxditk_ditBSP_JNI.so \
     vendor/asus/I01WD/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
     vendor/asus/I01WD/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/asus/I01WD/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
@@ -531,6 +538,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/AsusUndistort.so:$(TARGET_COPY_OUT_VENDOR)/lib64/AsusUndistort.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/arch/DIT_List.cfg:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/arch/DIT_List.cfg \
+    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/ditSCidGen/msgchk.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ditSCidGen/msgchk.db \
+    vendor/asus/I01WD/proprietary/vendor/lib64/DataSet/ispDB/ParameterDB.db:$(TARGET_COPY_OUT_VENDOR)/lib64/DataSet/ispDB/ParameterDB.db \
     vendor/asus/I01WD/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-external.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-external.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/android.hardware.camera.provider@2.4-legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.camera.provider@2.4-legacy.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
@@ -657,8 +667,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libarcsoft_super_night_raw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libarcsoft_super_night_raw.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamera_nn_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_nn_stub.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdalgov7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov7.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdalgov8.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdalgov8.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxfdengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxfdengine.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcamxstatscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxstatscore.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxswprocessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxswprocessalgo.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libcamxtintlessalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamxtintlessalgo.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libdts-eagle-shared.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdts-eagle-shared.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libgf_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca.so \
@@ -687,6 +700,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_arch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_arch.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditArchLIB.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditArchLIB.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditBSP.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP.so \
+    vendor/asus/I01WD/proprietary/vendor/lib64/libxditk_ditBSP_JNI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxditk_ditBSP_JNI.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/rfsa/adsp/libsns_device_mode_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_device_mode_skel.so \
     vendor/asus/I01WD/proprietary/vendor/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/rfsa/adsp/libsns_low_lat_stream_skel.so \
