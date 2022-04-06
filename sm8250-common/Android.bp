@@ -197,10 +197,37 @@ android_app_import {
 }
 
 dex_import {
+	name: "tcmclient",
+	owner: "asus",
+	jars: ["proprietary/framework/tcmclient.jar"],
+}
+
+dex_import {
 	name: "com.qti.snapdragon.sdk.display",
 	owner: "asus",
 	jars: ["proprietary/product/framework/com.qti.snapdragon.sdk.display.jar"],
 	product_specific: true,
+}
+
+dex_import {
+	name: "com.android.hotwordenrollment.common.util",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "com.qti.dpmframework",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/com.qti.dpmframework.jar"],
+	system_ext_specific: true,
+}
+
+dex_import {
+	name: "dpmapi",
+	owner: "asus",
+	jars: ["proprietary/system_ext/framework/dpmapi.jar"],
+	system_ext_specific: true,
 }
 
 dex_import {
