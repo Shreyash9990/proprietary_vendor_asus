@@ -121,7 +121,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/android.hardware.gnss@2.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.1-service-qti \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
-    vendor/asus/obiwan/proprietary/vendor/bin/hw/android.hardware.lights-service.qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.lights-service.qti \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-qti \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/capabilityconfigstoretest:$(TARGET_COPY_OUT_VENDOR)/bin/hw/capabilityconfigstoretest \
     vendor/asus/obiwan/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
@@ -449,7 +448,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.1-service-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.0-service-qti.rc \
-    vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.lights-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.lights-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service-multihal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service-multihal.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
@@ -1331,6 +1329,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.b17 \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.b18 \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.b19 \
+    vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.b20:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.b20 \
     vendor/asus/obiwan/proprietary/vendor/firmware/q6_ZS661KS_sm8250_image/adsp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/q6_ZS661KS_sm8250_image/adsp.mdt \
     vendor/asus/obiwan/proprietary/vendor/firmware/regdb.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/regdb.bin \
     vendor/asus/obiwan/proprietary/vendor/firmware/rog2_haptic/rog2_100.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rog2_haptic/rog2_100.bin \
@@ -2725,7 +2724,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.gpudrivers.kona.api30 \
     ifaa_service \
     android.hardware.gnss@2.1-service-qti \
-    android.hardware.lights-qti \
     android.hardware.neuralnetworks@1.3-service-qti-hta \
     android.hardware.neuralnetworks@1.3-service-qti \
     c2_manifest_vendor \
