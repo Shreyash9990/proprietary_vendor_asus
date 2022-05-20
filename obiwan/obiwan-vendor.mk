@@ -171,7 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/init.qti.qcv.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qti.qcv.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/install_key_server:$(TARGET_COPY_OUT_VENDOR)/bin/install_key_server \
     vendor/asus/obiwan/proprietary/vendor/bin/ipacm-diag:$(TARGET_COPY_OUT_VENDOR)/bin/ipacm-diag \
-    vendor/asus/obiwan/proprietary/vendor/bin/irisConfig:$(TARGET_COPY_OUT_VENDOR)/bin/irisConfig \
     vendor/asus/obiwan/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/asus/obiwan/proprietary/vendor/bin/is_hdcp_valid:$(TARGET_COPY_OUT_VENDOR)/bin/is_hdcp_valid \
     vendor/asus/obiwan/proprietary/vendor/bin/is_keybox_valid:$(TARGET_COPY_OUT_VENDOR)/bin/is_keybox_valid \
@@ -236,7 +235,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/qtisetprop:$(TARGET_COPY_OUT_VENDOR)/bin/qtisetprop \
     vendor/asus/obiwan/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/asus/obiwan/proprietary/vendor/bin/rsasd:$(TARGET_COPY_OUT_VENDOR)/bin/rsasd \
-    vendor/asus/obiwan/proprietary/vendor/bin/sar-vendor-cmd.xml:$(TARGET_COPY_OUT_VENDOR)/bin/sar-vendor-cmd.xml \
     vendor/asus/obiwan/proprietary/vendor/bin/savelogs_complete.sh:$(TARGET_COPY_OUT_VENDOR)/bin/savelogs_complete.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/secure_ui_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/secure_ui_sample_client \
     vendor/asus/obiwan/proprietary/vendor/bin/sensors.qti:$(TARGET_COPY_OUT_VENDOR)/bin/sensors.qti \
@@ -516,295 +514,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/init/vendor.sensors.sscrpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.sscrpcd.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/vppservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vppservice.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/HDR_SCurve0810.png \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm22.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm23.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm24.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm25.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm26.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm27.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er1/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/HDR_SCurve0810.png \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm22.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm23.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm24.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm25.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm26.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm27.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_er2/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_er2/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/HDR_SCurve0810.png \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm22.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm23.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm24.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm25.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm26.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm27.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_mp/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_mp/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/HDR_SCurve0810.png \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm22.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm23.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm24.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm25.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm26.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm27.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_pr/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_pr/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/HDR_SCurve0810.png:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/HDR_SCurve0810.png \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm22.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm22.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm23.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm23.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm24.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm24.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm25.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm25.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm26.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm26.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm27.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm27.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_obiwan_sr/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_obiwan_sr/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er1/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_er2/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_er2/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp1/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_mp2/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_mp2/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr1/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr1/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_pr2/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_pr2/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm1.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm10.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm11.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm12.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm13.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm14.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm15.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm16.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm17.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm18.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm19.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm19.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm2.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm20.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm20.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm21.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm21.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm3.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm4.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm5.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm6.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm7.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm8.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/inparm/inparm_tequila_sr/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/inparm_tequila_sr/inParm9.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/irissoft_o.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft_o.fw \
-    vendor/asus/obiwan/proprietary/vendor/etc/irissoft_t.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft_t.fw \
     vendor/asus/obiwan/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/asus/obiwan/proprietary/vendor/etc/kunaiIII_BT_Version.sh:$(TARGET_COPY_OUT_VENDOR)/etc/kunaiIII_BT_Version.sh \
     vendor/asus/obiwan/proprietary/vendor/etc/kunaiIII_fw_update.sh:$(TARGET_COPY_OUT_VENDOR)/etc/kunaiIII_fw_update.sh \
@@ -1738,10 +1447,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib/libhdrdynamic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamic.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libhdrdynamicootf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdrdynamicootf.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libhta_hexagon_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhta_hexagon_runtime.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libidl.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libifaaproduct.so:$(TARGET_COPY_OUT_VENDOR)/lib/libifaaproduct.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib/libipebpsstriping.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libirisService.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_client_api.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libizat_core.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjnihelper.so \
@@ -1798,10 +1505,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfioctl.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libpwiriscalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwiriscalibrate.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libpwirissoft.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwirissoft.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libpwsnapdragoncolor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwsnapdragoncolor.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpwsoftirisPCS.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcbor.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcc_file_agent.so \
     vendor/asus/obiwan/proprietary/vendor/lib/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcci_legacy.so \
@@ -1981,7 +1685,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.4.so \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.color@1.5.so \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/asus/obiwan/proprietary/vendor/lib/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.pixelworks.hardware.display@1.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.factory@2.1.so \
     vendor/asus/obiwan/proprietary/vendor/lib/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.data.slm@1.0.so \
@@ -2389,7 +2092,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libidl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libifaaproduct.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libifaaproduct.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libipebpsstriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libipebpsstriping.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libirisService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libirisService.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libizat_client_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_client_api.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libizat_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libizat_core.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libjnihelper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libjnihelper.so \
@@ -2448,11 +2150,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperfioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfioctl.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libpwiriscalibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwiriscalibrate.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libpwirispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirispq.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libpwirissoft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwirissoft.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libpwsnapdragoncolor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwsnapdragoncolor.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/libpwsoftirisPCS.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpwsoftirisPCS.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcbor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcbor.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcc_file_agent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcc_file_agent.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/libqcci_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqcci_legacy.so \
@@ -2604,7 +2302,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.color@1.4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.4.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.color@1.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.color@1.5.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
-    vendor/asus/obiwan/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
     vendor/asus/obiwan/proprietary/vendor/lib64/vendor.qti.data.slm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.slm@1.0.so \
