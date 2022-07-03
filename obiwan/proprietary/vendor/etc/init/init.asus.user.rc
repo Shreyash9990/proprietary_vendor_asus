@@ -1,7 +1,7 @@
 import /vendor/etc/init/hw/init.asus.debugtool.rc
 import init.asus.twinapps.rc
 import /vendor/etc/init/hw/init.asus.storage.rc
-import /vendor/etc/init/hw/immvib.rc
+
 
 on init
 
@@ -22,6 +22,16 @@ on fs
     chmod 0777 /dev/sentons_grip_sensor
 #ASUS_BSP Clay_Wang: for misc ioctl ---
 
+   on property:vendor.vibrator.boot.check=1
+    write /sys/class/leds/vibrator/gain_trig 102
+    write /sys/class/leds/vibrator/load_cali 1
+    write /sys/class/leds/vibrator/vmax 28
+    start vibrator_boot
+
+on property:vendor.vibrator.boot=1
+    write /sys/class/leds/vibrator/rtp_play "60006"
+    setprop vendor.vibrator.boot 0
+    
 on post-fs
 on post-fs-data
 
@@ -82,6 +92,8 @@ on post-fs-data
     chown system system /sys/devices/platform/goodix_ts.0/keymapping_touch     
     chmod 0777 /sys/devices/platform/goodix_ts.0/game_settings
     chown system system /sys/devices/platform/goodix_ts.0/game_settings
+    chmod 0777 /sys/devices/platform/goodix_ts.0/edge_settings
+    chown system system /sys/devices/platform/goodix_ts.0/edge_settings
     chmod 0777 /sys/devices/platform/goodix_ts.0/FP_status
     chown system system /sys/devices/platform/goodix_ts.0/FP_status
     
@@ -432,6 +444,7 @@ on charger_QTR
 
 # ASUS_BSP Deeo : Add station key in charger mode
 on charger
+    start ec_i2c_insmod
     trigger charger_QTR
 		
 #mount asdf
@@ -597,6 +610,11 @@ on property:vendor.screen.rotation=90
 on property:vendor.screen.rotation=270
     write /sys/devices/platform/goodix_ts.0/rotation_type 270
 
+on property:vendor.asus.touch_control_aod=0
+   write /sys/devices/platform/goodix_ts.0/gesture/fts_aod_ctrl_mode 0
+on property:vendor.asus.touch_control_aod=1
+   write /sys/devices/platform/goodix_ts.0/gesture/fts_aod_ctrl_mode 1
+
 on property:persist.vendor.asus.fp.wakeup=true
     write /sys/devices/platform/goodix_ts.0/gesture/fp_wakeup 1
 on property:persist.vendor.asus.fp.wakeup=false
@@ -741,6 +759,14 @@ on property:vendor.asus.nfc.status=*
 on property:vendor.asus.nfc.fw.version=*
     setprop persist.vendor.nfc.fw.version ${vendor.asus.nfc.fw.version}
 # ASUS_BSP NFC ---
+
+#NFC
+on post-fs-data
+    mkdir /data/vendor 0777 nfc nfc
+    mkdir /data/vendor/nfc 0777 nfc nfc
+    mkdir /data/vendor/nfc/param 0777 nfc nfc
+    chmod 0660 /dev/pn553
+    chown nfc nfc /dev/pn553
 
 ## ASUS BSP ChiaYuan Add for the balance of charging and heat +++
 on property:vendor.asus.gamingtype=1

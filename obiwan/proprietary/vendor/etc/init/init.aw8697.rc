@@ -49,7 +49,9 @@ on post-fs
 
     chmod 0664 /sys/class/leds/vibrator/load_cali
     chown system shell /sys/class/leds/vibrator/load_cali
-    write /sys/class/leds/vibrator/load_cali 1
+
+    chmod 0664 /sys/class/leds/vibrator/vmax
+    chown system shell /sys/class/leds/vibrator/vmax
 
 on post-fs-data
     mkdir /data/vendor/BBY 0777 system system
