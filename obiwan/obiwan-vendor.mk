@@ -699,7 +699,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.asus.sp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.asus.sp.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.asus.storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.asus.storage.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.asus.user.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.asus.user.rc \
-    vendor/asus/obiwan/proprietary/vendor/etc/init/init.aw8697.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aw8697.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.embmssl_server.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.embmssl_server.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.goodixfp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.goodixfp.rc \
     vendor/asus/obiwan/proprietary/vendor/etc/init/init.ifaa.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ifaa.rc \
