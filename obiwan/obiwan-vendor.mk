@@ -292,7 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/antennaSwitchSvc.sh:$(TARGET_COPY_OUT_VENDOR)/bin/antennaSwitchSvc.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/asus/obiwan/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
-    vendor/asus/obiwan/proprietary/vendor/bin/boot_vib.sh:$(TARGET_COPY_OUT_VENDOR)/bin/boot_vib.sh \
     vendor/asus/obiwan/proprietary/vendor/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool \
     vendor/asus/obiwan/proprietary/vendor/bin/cali_check:$(TARGET_COPY_OUT_VENDOR)/bin/cali_check \
     vendor/asus/obiwan/proprietary/vendor/bin/cali_shipping_check:$(TARGET_COPY_OUT_VENDOR)/bin/cali_shipping_check \
@@ -515,32 +514,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/bin/writekey:$(TARGET_COPY_OUT_VENDOR)/bin/writekey \
     vendor/asus/obiwan/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/asus/obiwan/proprietary/vendor/etc/ArmHDCP_QTI_Android.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/ArmHDCP_QTI_Android.cfg \
-    vendor/asus/obiwan/proprietary/vendor/etc/CN/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/CN/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/CN/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/CN/ASUS/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/CN/ASUS/Launcher/default_workspace/phone_workspace_single.xml:$(TARGET_COPY_OUT_VENDOR)/etc/CN/ASUS/Launcher/default_workspace/phone_workspace_single.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/DT_hub_Detect.sh:$(TARGET_COPY_OUT_VENDOR)/etc/DT_hub_Detect.sh \
-    vendor/asus/obiwan/proprietary/vendor/etc/EU/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/EU/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/EU/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/EU/ASUS/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/Generic/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Generic/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/Generic/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/Generic/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ID/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/ID/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ID/ASUS/Launcher/default_workspace/phone_workspace.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/IMEI_whitelist.txt:$(TARGET_COPY_OUT_VENDOR)/etc/IMEI_whitelist.txt \
-    vendor/asus/obiwan/proprietary/vendor/etc/JP/ACJ/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/JP/ACJ/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/JP/ACJ/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/JP/ACJ/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/JP/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/JP/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/JP/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/JP/ASUS/Launcher/default_workspace/phone_workspace.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/Obiwan_ISN.csv:$(TARGET_COPY_OUT_VENDOR)/etc/Obiwan_ISN.csv \
-    vendor/asus/obiwan/proprietary/vendor/etc/RU/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/RU/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/RU/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/RU/ASUS/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/TW/APTG/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/TW/APTG/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/TW/APTG/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/TW/APTG/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/TW/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/TW/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/TW/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/TW/ASUS/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/US/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/US/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/US/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/US/ASUS/Launcher/default_workspace/phone_workspace.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/WW/ASUS/Launcher/default_workspace/default_allapp.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml:$(TARGET_COPY_OUT_VENDOR)/etc/WW/ASUS/Launcher/default_workspace/phone_workspace.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/asus/obiwan/proprietary/vendor/etc/acdbdata/MTP/MTP_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/MTP_General_cal.acdb \
@@ -577,13 +553,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/obiwan/proprietary/vendor/etc/aura_sync_fw_update.sh:$(TARGET_COPY_OUT_VENDOR)/etc/aura_sync_fw_update.sh \
     vendor/asus/obiwan/proprietary/vendor/etc/bluetooth_qti_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_audio_policy_configuration.xml \
     vendor/asus/obiwan/proprietary/vendor/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_qti_hearing_aid_audio_policy_configuration.xml \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_1.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_1.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_2.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_2.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_3.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_3.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_4.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_4.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_5.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_5.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_6.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_6.wav \
-    vendor/asus/obiwan/proprietary/vendor/etc/boot_sound/boot_sound_7.wav:$(TARGET_COPY_OUT_VENDOR)/etc/boot_sound/boot_sound_7.wav \
     vendor/asus/obiwan/proprietary/vendor/etc/camera/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt \
     vendor/asus/obiwan/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/asus/obiwan/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
