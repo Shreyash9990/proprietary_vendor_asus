@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter heart zippo,$(TARGET_DEVICE)),)
+ifneq ($(filter I01WD I001D,$(TARGET_DEVICE)),)
 
 endif
